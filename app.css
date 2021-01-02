@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box;
+} 
+
+
+h1{
+	padding: 10px;
+	text-align: center;
+	color: rgb(230, 187, 18);
+}
+
+table {
+	background-color: rgb(230, 187, 18);
+	text-align: center;
+	margin: 10px;
+	position: absolute;
+	left: 27%;
+	width: 50%;
+	height: 70%;
+
+}
+
+tr:first-child td {
+	border-top-color: black;
+}
+
+tr:nth-child(3n) td {
+	border-bottom-color: black;
+}
+
+td {
+	border: 1px solid lightgrey;
+	height: 40px;
+	width: 40px;
+}
+
+td:first-child {
+	border-left-color: black;
+}
+
+td:nth-child(3n) {
+	border-right-color: black;
+}
+
+input {
+	padding: 0;
+	text-align: center;
+	border: 0;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	transition: background-color 1s;
+
+}
+
+input:hover {
+	background-color: rgb(228, 236, 240);
+}
+#buttons{
+	position: absolute;
+	left: 90%;
+	top: 80%;
+}
+body{
+	background-color: rgb(194, 53, 35);
+}

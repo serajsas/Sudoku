@@ -1,0 +1,19 @@
+{
+  "name": "sudoku-solver.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serajsas/Sudoku-Solver.github.io.git"
+  },
+  "author": "Seraj Abo Sabbah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serajsas/Sudoku-Solver.github.io/issues"
+  },
+  "homepage": "https://github.com/serajsas/Sudoku-Solver.github.io#readme"
+}
